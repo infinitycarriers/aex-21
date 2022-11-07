@@ -63,7 +63,7 @@ body {
     transition: 170ms ease-in-out;
 }
 
-@media (hover){
+@media (hover: hover) and (pointer: fine){
     .nav-btn li:hover {
         transform: scale(1.05);
         background-color: rgb(44, 44, 44);
